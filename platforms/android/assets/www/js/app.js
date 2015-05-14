@@ -17,3 +17,16 @@ angular.module('starter', ['ionic'])
     }
   });
 })
+
+// Add the 'ionic.service.core' module to your main angular module:
+angular.module('test', ['ionic.service.core'])
+// Identify App
+.config(['$ionicAppProvider', function($ionicAppProvider) {
+  // Identify app
+  $ionicAppProvider.identify({
+    // The App ID for the server
+    app_id: 'YOUR_APP_ID41d0f472',
+    // The API key all services will use for this app
+    api_key: '348e6e0283e05a9dea813ac12507b8d91912386195a2a6c2'
+  });
+}])

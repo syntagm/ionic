@@ -14,7 +14,7 @@
   <body class="platform-android platform-cordova platform-webview">
   
     
-    <ion-nav-bar class="bar-positive">
+    <ion-nav-bar class="bar-assertive">
       <ion-nav-back-button>
       </ion-nav-back-button>
     </ion-nav-bar>
@@ -44,40 +44,46 @@
       <ion-view view-title="Home">
         <ion-content class="padding">
           <p>
-            <a class="button icon icon-right ion-chevron-right" href="#/tab/facts">Scientific Facts</a>
+            <a class="button icon icon-right ion-chevron-right" href="#/tab/facts">appFarm Facts</a>
           </p>
-        </ion-content>
+        </ion-content>		
       </ion-view>
     </script>
 
     <script id="templates/facts.html" type="text/ng-template">
-      <ion-view view-title="Facts">
+      <ion-view view-title="appFarm">
         <ion-content class="padding">
-          <p>Banging your head against a wall uses 150 calories an hour.</p>
-          <p>Dogs have four toes on their hind feet, and five on their front feet.</p>
-          <p>The ant can lift 50 times its own weight, can pull 30 times its own weight and always falls over on its right side when intoxicated.</p>
-          <p>A cockroach will live nine days without it's head, before it starves to death.</p>
-          <p>Polar bears are left handed.</p>
+		<ul>		
+          <li class="item">We create mobile applications for agriculture in SA</li>
+          <li>The goal of this application is to assist <em>new producers</em> </li>
+          <li>New primary producers are agripreneurs who feel they have less than the required degree of experience and support.</li>
+          <li>By support we mean assistance from other primary producers</li>
+          <p></p>
+		  </ul>
+		  <a class="item" href="http://www.appfarm.co.za">
+    Visit appFarm
+  </a>
+  <br>
+  <img src="img/af.png" width="200" height="200" alt="af" longdesc="img/af.jpg" />
+  <br>   
           <p>
             <a class="button icon ion-home" href="#/tab/home"> Home</a>
-            <a class="button icon icon-right ion-chevron-right" href="#/tab/facts2">More Facts</a>
-          </p>
-        </ion-content>
-      </ion-view>
-    </script>
-
+            <a class="button icon icon-right ion-chevron-right" href="#/tab/facts2">Ask4Support</a>
+          </p></script>
+        
+      
+    
     <script id="templates/facts2.html" type="text/ng-template">
-      <ion-view view-title="Also Factual">
+      <ion-view view-title="Get Support">
         <ion-content class="padding">
-          <p>111,111,111 x 111,111,111 = 12,345,678,987,654,321</p>
-          <p>1 in every 4 Americans has appeared on T.V.</p>
-          <p>11% of the world is left-handed.</p>
-          <p>1 in 8 Americans has worked at a McDonalds restaurant.</p>
-          <p>$283,200 is the absolute highest amount of money you can win on Jeopardy.</p>
-          <p>101 Dalmatians, Peter Pan, Lady and the Tramp, and Mulan are the only Disney cartoons where both parents are present and don't die throughout the movie.</p>
+          <p></p>
+          <h4>Still under construction</h4>
+          <p></p>
+          <p></p>
+          <p></p>
           <p>
             <a class="button icon ion-home" href="#/tab/home"> Home</a>
-            <a class="button icon ion-chevron-left" href="#/tab/facts"> Scientific Facts</a>
+            <a class="button icon ion-chevron-left" href="#/tab/facts"> Who we are</a>
           </p>
         </ion-content>
       </ion-view>
@@ -86,9 +92,9 @@
     <script id="templates/about.html" type="text/ng-template">
       <ion-view view-title="About">
         <ion-content class="padding">
-          <h3>Create hybrid mobile apps with the web technologies you love.</h3>
-          <p>Free and open source, Ionic offers a library of mobile-optimized HTML, CSS and JS components for building highly interactive apps.</p>
-          <p>Built with Sass and optimized for AngularJS.</p>
+          <h3>Customised hybrid mobile apps with the web technologies you love.</h3>
+          <p>Multi-platform and open source, appFarm offers a library of mobile-optimized HTML, CSS and JS components for building highly interactive apps.</p>
+          <p>Built with Cordova and optimized for AngularJS.</p>
           <p>
             <a class="button icon icon-right ion-chevron-right" href="#/tab/navstack">Tabs Nav Stack</a>
           </p>
@@ -107,14 +113,38 @@
     <script id="templates/contact.html" type="text/ng-template">
       <ion-view title="Contact">
         <ion-content>
-          <div class="list">
-            <div class="item">
-              @IonicFramework
-            </div>
-            <div class="item">
-              @DriftyTeam
-            </div>
-          </div>
+		<div class="card">
+  <div class="list card">
+
+  <a href="#" class="item item-icon-left">
+    <i class="icon ion-home"></i>
+    Enter home address
+  </a>
+
+  <a href="#" class="item item-icon-left">
+    <i class="icon ion-ios-telephone"></i>
+    Enter phone number
+  </a>
+
+  <a href="#" class="item item-icon-left">
+    <i class="icon ion-wifi"></i>
+    Enter wireless password
+  </a>
+
+  <a href="#" class="item item-icon-left">
+    <i class="icon ion-card"></i>
+    Enter card information
+  </a>
+
+</div>
+          <!--<div class="list">
+            <!--<div class="item">
+            <!--  @casuf
+            <!--</div>
+            <!--<div class="item">
+            <!--  @synapps
+            <!--</div>
+          <!--</div> -->
         </ion-content>
       </ion-view>
     </script>

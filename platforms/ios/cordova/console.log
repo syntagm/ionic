@@ -1,0 +1,16 @@
+2015-05-13 20:10:23.858 ionic1[1183:25662] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Syntagm/Library/Developer/CoreSimulator/Devices/2353BE30-BCFE-44C5-8E3E-450FE1EBFF5A/data/Containers/Data/Application/9935312F-2BA7-4B6C-A162-059AC2A5B1CF/Library/Cookies/Cookies.binarycookies
+2015-05-13 20:10:24.328 ionic1[1183:25662] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-13 20:10:24.328 ionic1[1183:25662] Multi-tasking -> Device: YES, App: YES
+2015-05-13 20:10:24.349 ionic1[1183:25662] Unlimited access to network resources
+2015-05-13 20:10:24.807 ionic1[1183:25662] [CDVTimer][keyboard] 0.101030ms
+2015-05-13 20:10:24.807 ionic1[1183:25662] [CDVTimer][TotalPluginStartup] 0.424981ms
+2015-05-13 20:10:25.500 ionic1[1183:25662] Resetting plugins due to page load.
+2015-05-13 20:10:26.257 ionic1[1183:25662] Finished load of: file:///Users/Syntagm/Library/Developer/CoreSimulator/Devices/2353BE30-BCFE-44C5-8E3E-450FE1EBFF5A/data/Containers/Bundle/Application/C8F06D8E-319C-481A-A8EB-E0EACC701022/ionic1.app/www/index.html#/tab/home
+2015-05-14 20:30:50.210 ionic1[1196:18875] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Syntagm/Library/Developer/CoreSimulator/Devices/2353BE30-BCFE-44C5-8E3E-450FE1EBFF5A/data/Containers/Data/Application/97DC1578-C0B0-47BD-9141-B744B3F1027F/Library/Cookies/Cookies.binarycookies
+2015-05-14 20:30:50.785 ionic1[1196:18875] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-14 20:30:50.786 ionic1[1196:18875] Multi-tasking -> Device: YES, App: YES
+2015-05-14 20:30:50.816 ionic1[1196:18875] Unlimited access to network resources
+2015-05-14 20:30:51.357 ionic1[1196:18875] [CDVTimer][keyboard] 0.060976ms
+2015-05-14 20:30:51.357 ionic1[1196:18875] [CDVTimer][TotalPluginStartup] 0.263989ms
+2015-05-14 20:30:51.737 ionic1[1196:18875] Resetting plugins due to page load.
+2015-05-14 20:30:52.340 ionic1[1196:18875] Finished load of: file:///Users/Syntagm/Library/Developer/CoreSimulator/Devices/2353BE30-BCFE-44C5-8E3E-450FE1EBFF5A/data/Containers/Bundle/Application/8D7A78A1-41E5-4885-980C-74812304249C/ionic1.app/www/index.html#/tab/home
